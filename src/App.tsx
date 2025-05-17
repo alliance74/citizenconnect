@@ -1,10 +1,9 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
+import HomePage from "./pages/HomePage";
 import NotFound from "./pages/NotFound";
 import Layout from "./components/Layout";
 import SubmitComplaint from "./pages/SubmitComplaint";
@@ -21,7 +20,8 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<SubmitComplaint />} />
+            <Route index element={<HomePage />} />
+            <Route path="submit" element={<SubmitComplaint />} />
             <Route path="track" element={<TrackStatus />} />
             <Route path="admin" element={<AdminDashboard />} />
             <Route path="*" element={<NotFound />} />
