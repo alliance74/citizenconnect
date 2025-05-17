@@ -70,7 +70,7 @@ src/
 Clone the repository and run the project locally:
 
 ```bash
-git clone https://github.com/alliance74/citizen-connect-react.git
-cd citizen-connect-react
+git clone https://github.com/alliance74/citizenconnect.git
+cd citizenconnect
 npm install
 npm start
