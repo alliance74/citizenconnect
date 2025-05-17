@@ -27,10 +27,10 @@ Citizen Connect is a platform that enables citizens to submit complaints and fee
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/citizen-connect-react.git
+git clone https://github.com/alliance74/citizenconnect.git
 
 # Navigate to project directory
-cd citizen-connect-react
+cd citizenconnect
 
 # Install dependencies
 npm install
