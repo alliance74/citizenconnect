@@ -73,4 +73,4 @@ Clone the repository and run the project locally:
 git clone https://github.com/alliance74/citizenconnect.git
 cd citizenconnect
 npm install
-npm start
+npm run dev
